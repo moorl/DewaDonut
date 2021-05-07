@@ -1,0 +1,66 @@
+[
+  {
+    "name": "Fisch und Fischerzeugnisse",
+    "description": "Fischhaltige Zutaten und Fischerzeugnisse"
+  },
+  {
+    "name": "Schalenfrüchte",
+    "description": "Nusseiweißhaltige Zutaten. Unter Nüsse fallen Mandel, Hasel-, Pecan-, Wal-, Para-, Macadamia-Nuss, Cashew-Kern und Pistazie"
+  },
+  {
+    "name": "Fisch und Fischerzeugnisse",
+    "description": "Fischhaltige Zutaten und Fischerzeugnisse"
+  },
+  {
+    "name": "Soja",
+    "description": "Sojaeiweißhaltige Zutaten, auch Sojalezithin"
+  },
+  {
+    "name": "Ei und Eierzeugnisse",
+    "description": "Eiweißhaltige Zutaten"
+  },
+  {
+    "name": "Gluten",
+    "description": "Glutenhaltige Zutaten, d.h. klebereiweißhaltiges Getreide bzw. Getreideprodukte aus Weizen, Grünkern, Dinkel, Hafer, Roggen und Gerste"
+  },
+  {
+    "name": "Sellerie",
+    "description": "Selleriehaltige Zutaten"
+  },
+  {
+    "name": "Krebstiere und Krebstiererzeugnisse",
+    "description": "Krebstierhaltige Zutaten und Krebstiererzeugnisse"
+  },
+  {
+    "name": "Sesamsamen und Sesamsamenerzeugnisse",
+    "description": "Sesamsamenhaltige Zutaten und Sesamsamenerzeugnisse"
+  },
+  {
+    "name": "Schwefeldioxid und Sulfite",
+    "description": "Schwefeldioxid und Sulfithaltige Zutaten"
+  },
+  {
+    "name": "Weizen",
+    "description": "Weizeneiweißhaltige Zutaten"
+  },
+  {
+    "name": "Senf und Senferzeugnisse",
+    "description": "Senfhaltige Zutaten und Senferzeugnisse"
+  },
+  {
+    "name": "Lupine und daraus hergestellte Erzeugnisse",
+    "description": "Lupinhaltige Zutaten und daraus hergestellte Erzeugnisse"
+  },
+  {
+    "name": "Milch",
+    "description": "Milcheiweiß- und milchzuckerhaltige Zutaten"
+  },
+  {
+    "name": "Erdnuss",
+    "description": "Erdnusseiweißhaltige Zutaten"
+  },
+  {
+    "name": "Weichtiere und daraus hergestellte Erzeugnisse",
+    "description": "Weichtierhaltige Zutaten und daraus hergestellte Erzeugnisse"
+  }
+]

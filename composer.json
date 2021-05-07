@@ -1,0 +1,41 @@
+{
+    "name": "dewa/donut",
+    "description": "DeliveryWare | Demo Content",
+    "keywords": ["restaurant", "delivery", "theme"],
+    "version": "0.0.1",
+    "type": "shopware-platform-plugin",
+    "license": "proprietary",
+    "authors": [
+        {
+            "name": "[Unternehmensname]",
+            "homepage": "https://www.deliveryware.de"
+        }
+    ],
+    "require": {
+        "dewa/shop": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "DewaDonut\\": "src/"
+        }
+    },
+    "extra": {
+        "shopware-plugin-class": "DewaDonut\\DewaDonut",
+        "label": {
+            "en-GB": "DeliveryWare | Donut",
+            "de-DE": "DeliveryWare | Donut"
+        },
+        "description": {
+            "en-GB": "DeliveryWare | Donut",
+            "de-DE": "DeliveryWare | Donut"
+        },
+        "manufacturerLink": {
+            "en-GB": "https://www.deliveryware.de",
+            "de-DE": "https://www.deliveryware.de"
+        },
+        "supportLink": {
+            "en-GB": "https://www.deliveryware.de",
+            "de-DE": "https://www.deliveryware.de"
+        }
+    }
+}

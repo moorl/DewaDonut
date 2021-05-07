@@ -1,0 +1,31 @@
+[
+  {
+    "id": "{DEMO_CATEGORY_0}",
+    "parentId": "{NAVIGATION_CATEGORY_ID}",
+    "cmsPageId": "{CMS_PAGE_ID}",
+    "mediaId": "pexels-photo-1565982",
+    "active": true,
+    "name": "Speisekarte"
+  },
+  {
+    "id": "{DEMO_CATEGORY_1}",
+    "parentId": "{DEMO_CATEGORY_0}",
+    "mediaId": "pexels-photo-842519",
+    "active": true,
+    "name": "Pizza"
+  },
+  {
+    "id": "{DEMO_CATEGORY_2}",
+    "parentId": "{DEMO_CATEGORY_0}",
+    "mediaId": "pexels-photo-2092906",
+    "active": true,
+    "name": "Pasta"
+  },
+  {
+    "id": "{DEMO_CATEGORY_3}",
+    "parentId": "{DEMO_CATEGORY_0}",
+    "mediaId": "pexels-photo-1189261",
+    "active": true,
+    "name": "Getränke"
+  }
+]
