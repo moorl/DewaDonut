@@ -20,7 +20,7 @@
         }
     },
     "extra": {
-        "shopware-plugin-class": "DewaDonut\\DewaDonut",
+        "shopware-plugin-class": "AppflixDewaDonut\\DewaDonut",
         "label": {
             "en-GB": "DeliveryWare | Donut",
             "de-DE": "DeliveryWare | Donut"
