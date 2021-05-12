@@ -3,6 +3,7 @@
     "active": true,
     "name": "MyDewaShop Hamburg",
     "email": "info@deliveryware.de",
+    "phoneNumber": "01 23 4 / 56 78 9",
     "firstName": "Max",
     "lastName": "Mustermann",
     "street": "Bergstraße",
@@ -21,7 +22,8 @@
     "printers": [
       {
         "active": true,
-        "name": "Küche"
+        "name": "Küche",
+        "mac": "AA:BB:CC:DD"
       }
     ]
   },
@@ -49,7 +51,7 @@
       {
         "active": true,
         "name": "Küche",
-        "template": "[feed: length 30mm]\\n{% set shop = shopOrder.shop %}\\\\\n{% set order = shopOrder.order %}\\\\\n{% set delivery = order.deliveries.first() %}\\\\\n{% set address = delivery.shippingOrderAddress %}\\\\\n[align: center]\\\\\n[image: url http:\/\/dewa.dev.flinkfactory.com\/media\/c1\/46\/25\/1619389755\/demo-logo_black.jpg; width 60%; min-width 48mm]\\n{{ shop.name }}\\n{{ shop.street }} {{ shop.streetNumber }}\\n{{ shop.zipcode }} {{ shop.city }}\\n{% if shop.phoneNumber %}{{ shop.phoneNumber }}{% endif %}\\n\\n{{ \"dewa-shop.slip.orderNumber\" | trans }}: {{ order.orderNumber }}\\n{{ order.orderDateTime | date(\"d.m.Y H:i\") }}\\n\\n[bold: on]\\\\\n{{ delivery.shippingMethod.name }}\\n{{ shopOrder.desired_time | date(\"d.m.Y H:i\") }}\\n[bold: off]\\\\\n{{ address.firstName }} {{ address.lastName }}\\n{{ address.street }}\\n{{ address.zipcode }} {{ address.city }}\\n{% if address.phoneNumber %}{{ address.phoneNumber }}{% endif %}\\n\\n[align: left]\\\\\n{% for item in order.lineItems %}\\\\\n[column: left: {{ item.quantity }}x {{ item.label }} {% if item.payload.productNumber %}({{ item.payload.productNumber }}){% endif %}; right: {{ item.price.totalPrice|currency }}]\\n{% if item.payload.dewa %}\\n{% for dewa in item.payload.dewa %}\\n{{ dewa.name}}: \\\\\n{% if dewa.value is iterable %}\\n{{ dewa.value|join(\", \") }}\\n{% else %}\\n{{ dewa.value }}\\n{% endif %}\\n{% endfor %}\\n{% endif %}\\n{% endfor %}\\\\\n\\n[column: left: {{ \"dewa-shop.slip.deliveryCosts\" | trans }}:; right: {{ delivery.shippingCosts.totalPrice|currency }}]\\n\\n[bold: on][column: left: Total:; right: {{order.price.totalPrice|currency}}][bold: off]\\n{% for percentage,tax in order.price.calculatedTaxes %}\\n[column: left: {{ percentage }}% MwSt.; right: {{ tax.tax|currency }}]\\n{% endfor %}\\n[align: center]\\n[bold: on]\\\\\n{% if order.transactions.last.stateMachineState.technicalName == \"paid\" %}\\n{{ \"dewa-shop.slip.paid\" | trans }}\\n{% else %}\\n{{ \"dewa-shop.slip.notPaid\" | trans }}\\n{% endif %}\\n[bold: off]\\\\\n\\n{{ \"dewa-shop.slip.thisIsNoInvoice\" | trans }}\\n\\n\\n[cut]"
+        "mac": "AA:BB:CC:DD"
       }
     ]
   }
