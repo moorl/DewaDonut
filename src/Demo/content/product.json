@@ -1,14 +1,302 @@
 [
-  {
-    "active": true,
-    "name": "Pizza Dewa",
-    "description": "Knusprige Pizza mit luftigem Boden.",
-    "productNumber": "011",
-    "stock": 100,
-    "taxId": "{TAX_ID_REDUCED}",
-    "price": 3.50,
-    "visibilities": [{"salesChannelId": "{SALES_CHANNEL_ID}", "visibility": 30}],
-    "categories": [{"id": "{DEMO_CATEGORY_1}"}],
-    "cover": {"mediaId": "pexels-photo-2619970"}
-  }
+    {
+        "active": true,
+        "name": "Donut mit Kirstallzucker",
+        "description": "",
+        "productNumber": "001",
+        "stock": 100,
+        "taxId": "{TAX_ID_REDUCED}",
+        "price": 1.60,
+        "visibilities": [{"salesChannelId": "{SALES_CHANNEL_ID}", "visibility": 30}],
+        "categories": [{"id": "{DEMO_CATEGORY_1}"}]
+    },
+    {
+        "active": true,
+        "name": "Donut mit Schokoguss",
+        "description": "",
+        "productNumber": "002",
+        "stock": 100,
+        "taxId": "{TAX_ID_REDUCED}",
+        "price": 2.10,
+        "visibilities": [{"salesChannelId": "{SALES_CHANNEL_ID}", "visibility": 30}],
+        "categories": [{"id": "{DEMO_CATEGORY_1}"}]
+    },
+    {
+        "active": true,
+        "name": "Donut mit Zuckerguss",
+        "description": "",
+        "productNumber": "003",
+        "stock": 100,
+        "taxId": "{TAX_ID_REDUCED}",
+        "price": 1.80,
+        "visibilities": [{"salesChannelId": "{SALES_CHANNEL_ID}", "visibility": 30}],
+        "categories": [{"id": "{DEMO_CATEGORY_1}"}]
+    },
+    {
+        "active": true,
+        "name": "Donut mit Puderzucker",
+        "description": "und Erdbeermarmeladen-Füllung",
+        "productNumber": "005",
+        "stock": 100,
+        "taxId": "{TAX_ID_REDUCED}",
+        "price": 2.80,
+        "visibilities": [{"salesChannelId": "{SALES_CHANNEL_ID}", "visibility": 30}],
+        "categories": [{"id": "{DEMO_CATEGORY_1}"}]
+    },
+    {
+        "active": true,
+        "name": "Donut mit Zuckerguss",
+        "description": "und Vanillepudding-Füllung",
+        "productNumber": "004",
+        "stock": 100,
+        "taxId": "{TAX_ID_REDUCED}",
+        "price": 2.80,
+        "visibilities": [{"salesChannelId": "{SALES_CHANNEL_ID}", "visibility": 30}],
+        "categories": [{"id": "{DEMO_CATEGORY_1}"}]
+    },
+    {
+        "active": true,
+        "name": "Donut Basis",
+        "description": "Konfiguriere Deinen Donut, wie Du ihn magst!",
+        "productNumber": "100",
+        "stock": 100,
+        "taxId": "{TAX_ID_REDUCED}",
+        "price": 1.60,
+        "visibilities": [{"salesChannelId": "{SALES_CHANNEL_ID}", "visibility": 30}],
+        "categories": [{"id": "{DEMO_CATEGORY_100}"}],
+        "cover": {
+            "mediaId": "product/dewa-demo-donut-config"
+        }
+    },
+
+
+
+
+    {
+        "active": true,
+        "name": "Coca Cola 0,2l",
+        "description": "",
+        "productNumber": "200",
+        "stock": 100,
+        "taxId": "{TAX_ID_REDUCED}",
+        "price": 2.00,
+        "visibilities": [
+            {
+                "salesChannelId": "{SALES_CHANNEL_ID}",
+                "visibility": 30
+            }
+        ],
+        "categories": [
+            {
+                "id": "{DEMO_CATEGORY_10}"
+            }
+        ],
+        "cover": {
+            "mediaId": "product/dewa-demo-standard-drinks"
+        }
+    },
+    {
+        "active": true,
+        "name": "Pepsi Cola 0,33l",
+        "description": "",
+        "productNumber": "201",
+        "stock": 100,
+        "taxId": "{TAX_ID_REDUCED}",
+        "price": 2.50,
+        "visibilities": [
+            {
+                "salesChannelId": "{SALES_CHANNEL_ID}",
+                "visibility": 30
+            }
+        ],
+        "categories": [
+            {
+                "id": "{DEMO_CATEGORY_10}"
+            }
+        ],
+        "cover": {
+            "mediaId": "product/dewa-demo-standard-drinks"
+        }
+    },
+    {
+        "active": true,
+        "name": "Fanta 0,33l",
+        "description": "",
+        "productNumber": "202",
+        "stock": 100,
+        "taxId": "{TAX_ID_REDUCED}",
+        "price": 2.50,
+        "visibilities": [
+            {
+                "salesChannelId": "{SALES_CHANNEL_ID}",
+                "visibility": 30
+            }
+        ],
+        "categories": [
+            {
+                "id": "{DEMO_CATEGORY_10}"
+            }
+        ],
+        "cover": {
+            "mediaId": "product/dewa-demo-standard-drinks"
+        }
+    },
+    {
+        "active": true,
+        "name": "Sprite 0,33l",
+        "description": "",
+        "productNumber": "203",
+        "stock": 100,
+        "taxId": "{TAX_ID_REDUCED}",
+        "price": 2.50,
+        "visibilities": [
+            {
+                "salesChannelId": "{SALES_CHANNEL_ID}",
+                "visibility": 30
+            }
+        ],
+        "categories": [
+            {
+                "id": "{DEMO_CATEGORY_10}"
+            }
+        ],
+        "cover": {
+            "mediaId": "product/dewa-demo-standard-drinks"
+        }
+    },
+    {
+        "active": true,
+        "name": "Mineralwasser 0,33l",
+        "description": "Mit Kohlensäure",
+        "productNumber": "204",
+        "stock": 100,
+        "taxId": "{TAX_ID_REDUCED}",
+        "price": 2.50,
+        "visibilities": [
+            {
+                "salesChannelId": "{SALES_CHANNEL_ID}",
+                "visibility": 30
+            }
+        ],
+        "categories": [
+            {
+                "id": "{DEMO_CATEGORY_10}"
+            }
+        ],
+        "cover": {
+            "mediaId": "product/dewa-demo-standard-drinks"
+        }
+    },
+    {
+        "active": true,
+        "name": "Milchshake 0,5l",
+        "description": "Schokolade",
+        "productNumber": "205",
+        "stock": 100,
+        "taxId": "{TAX_ID_REDUCED}",
+        "price": 3.50,
+        "visibilities": [
+            {
+                "salesChannelId": "{SALES_CHANNEL_ID}",
+                "visibility": 30
+            }
+        ],
+        "categories": [
+            {
+                "id": "{DEMO_CATEGORY_10}"
+            }
+        ],
+        "cover": {
+            "mediaId": "product/dewa-demo-standard-milkshake"
+        }
+    },
+    {
+        "active": true,
+        "name": "Milchshake 0,5l",
+        "description": "Vanille",
+        "productNumber": "206",
+        "stock": 100,
+        "taxId": "{TAX_ID_REDUCED}",
+        "price": 3.50,
+        "visibilities": [
+            {
+                "salesChannelId": "{SALES_CHANNEL_ID}",
+                "visibility": 30
+            }
+        ],
+        "categories": [
+            {
+                "id": "{DEMO_CATEGORY_10}"
+            }
+        ],
+        "cover": {
+            "mediaId": "product/dewa-demo-standard-milkshake"
+        }
+    },
+    {
+        "active": true,
+        "name": "Milchshake 0,5l",
+        "description": "Erdbeere",
+        "productNumber": "207",
+        "stock": 100,
+        "taxId": "{TAX_ID_REDUCED}",
+        "price": 3.50,
+        "visibilities": [
+            {
+                "salesChannelId": "{SALES_CHANNEL_ID}",
+                "visibility": 30
+            }
+        ],
+        "categories": [
+            {
+                "id": "{DEMO_CATEGORY_10}"
+            }
+        ],
+        "cover": {
+            "mediaId": "product/dewa-demo-standard-milkshake"
+        }
+    },
+    {
+        "active": true,
+        "name": "Kaffee 0,2l",
+        "description": "",
+        "productNumber": "208",
+        "stock": 100,
+        "taxId": "{TAX_ID_REDUCED}",
+        "price": 2.50,
+        "visibilities": [
+            {
+                "salesChannelId": "{SALES_CHANNEL_ID}",
+                "visibility": 30
+            }
+        ],
+        "categories": [
+            {
+                "id": "{DEMO_CATEGORY_10}"
+            }
+        ],
+        "cover": {
+            "mediaId": "product/dewa-demo-standard-coffee"
+        }
+    },
+    {
+        "active": true,
+        "name": "Cappuccino 0,2l",
+        "description": "",
+        "productNumber": "209",
+        "stock": 100,
+        "taxId": "{TAX_ID_REDUCED}",
+        "price": 2.50,
+        "visibilities": [{
+            "salesChannelId": "{SALES_CHANNEL_ID}",
+            "visibility": 30}],
+        "categories": [{
+            "id": "{DEMO_CATEGORY_10}"
+        }
+        ],
+        "cover": {
+            "mediaId": "product/dewa-demo-standard-coffee"
+        }
+    }
+
 ]

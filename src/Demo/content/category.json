@@ -1,16 +1,32 @@
 [
-  {
-    "id": "{DEMO_CATEGORY_0}",
-    "parentId": "{NAVIGATION_CATEGORY_ID}",
-    "cmsPageId": "{CMS_PAGE_ID}",
-    "mediaId": "pexels-photo-1565982",
-    "active": true,
-    "name": "Speisekarte"
-  },
-  {
-    "id": "{DEMO_CATEGORY_1}",
-    "parentId": "{DEMO_CATEGORY_0}",
-    "active": true,
-    "name": "Donuts"
-  }
+    {
+        "id": "{DEMO_CATEGORY_0}",
+        "parentId": "{NAVIGATION_CATEGORY_ID}",
+        "cmsPageId": "{CMS_PAGE_ID}",
+        "mediaId": "pexels-photo-1565982",
+        "active": true,
+        "name": "Speisekarte"
+    },
+    {
+        "id": "{DEMO_CATEGORY_1}",
+        "parentId": "{DEMO_CATEGORY_0}",
+        "active": true,
+        "name": "Donuts",
+        "mediaId": "category/dewa-demo-category-donut"
+    },
+
+    {
+        "id": "{DEMO_CATEGORY_10}",
+        "parentId": "{DEMO_CATEGORY_0}",
+        "active": true,
+        "name": "Getränke",
+        "mediaId": "category/dewa-demo-category-drinks"
+    },
+    {
+        "id": "{DEMO_CATEGORY_100}",
+        "parentId": "{DEMO_CATEGORY_0}",
+        "active": true,
+        "name": "Donut Konfigurator",
+        "mediaId": "category/dewa-demo-category-config"
+    }
 ]

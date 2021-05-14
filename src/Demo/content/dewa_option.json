@@ -1,3 +1,78 @@
 [
+    {
+        "name": "Kommentar",
+        "type": "textarea",
+        "optionCategories": [
+            {"categoryId": "{DEMO_CATEGORY_1}","name": "Kommentar:", "priority": 100},
+            {"categoryId": "{DEMO_CATEGORY_100}","name": "Kommentar:", "priority": 100}
+        ]
+    },
+    {
+        "name": "Rabattstufen",
+        "type": "single",
+        "items": [
+            {"price": 0, "priceFactor": 1, "priority": 400, "name": "x1 "},
+            {"price": 0, "priceFactor": 8, "priority": 300, "name": "x10 "},
+            {"price": 0, "priceFactor": 22, "priority": 200, "name": "x25 "},
+            {"price": 0, "priceFactor": 40, "priority": 100, "name": "x50 "}
+        ],
+        "optionCategories": [
+            {"categoryId": "{DEMO_CATEGORY_1}","name": "Rabattstufen:", "priority": 100}
+        ]
+    },
+    {
+        "name": "Konfigurator Füllung",
+        "type": "radio",
+        "items": [
+            {"price": 0, "priceFactor": 1, "priority": 999, "name": "Ohne Füllung"},
+            {"price": 0.50, "priceFactor": 1, "priority": 500, "name": "Vanillepudding"},
+            {"price": 0.40, "priceFactor": 1, "priority": 500, "name": "Nutella"},
+            {"price": 0.40, "priceFactor": 1, "priority": 500, "name": "Apfel-Zimtfüllung"},
+            {"price": 0.30, "priceFactor": 1, "priority": 500, "name": "Nougatcreme"},
+            {"price": 0.40, "priceFactor": 1, "priority": 500, "name": "Erdbeermarmelade"},
+            {"price": 0.40, "priceFactor": 1, "priority": 500, "name": "Blaubeermarmelade"},
+            {"price": 0.50, "priceFactor": 1, "priority": 500, "name": "Erdnussbutter"}
 
+        ],
+        "optionCategories": [
+            {"categoryId": "{DEMO_CATEGORY_100}","name": "Füllung", "priority": 900, "isCollapsible": true}
+        ]
+    },
+    {
+        "name": "Konfigurator Glasur",
+        "type": "radio",
+        "items": [
+            {"price": 0, "priceFactor": 1, "priority": 999, "name": "Ohne Glasur"},
+            {"price": 0.10, "priceFactor": 1, "priority": 800, "name": "Kristallzucker"},
+            {"price": 0.20, "priceFactor": 1, "priority": 800, "name": "Zuckerguss"},
+            {"price": 0.30, "priceFactor": 1, "priority": 500, "name": "Schokolade"},
+            {"price": 0.30, "priceFactor": 1, "priority": 500, "name": "Zitronenglasur"},
+            {"price": 0.40, "priceFactor": 1, "priority": 500, "name": "Himbeerglasur"},
+            {"price": 0.10, "priceFactor": 1, "priority": 500, "name": "Puderzucker"}
+        ],
+        "optionCategories": [
+            {"categoryId": "{DEMO_CATEGORY_100}","name": "Glasur", "priority": 900, "isCollapsible": true}
+        ]
+    },
+    {
+        "name": "Konfigurator Toppings",
+        "type": "radio",
+        "items": [
+            {"price": 0, "priceFactor": 1, "priority": 999, "name": "Ohne Topping"},
+            {"price": 1.00, "priceFactor": 1, "priority": 500, "name": "Himbeeren"},
+            {"price": 1.00, "priceFactor": 1, "priority": 500, "name": "Erdbeeren"},
+            {"price": 1.00, "priceFactor": 1, "priority": 500, "name": "Blaubeeren"},
+            {"price": 0.70, "priceFactor": 1, "priority": 500, "name": "Nüsse"},
+            {"price": 0.40, "priceFactor": 1, "priority": 500, "name": "Bounty"},
+            {"price": 0.50, "priceFactor": 1, "priority": 500, "name": "Aftereight"},
+            {"price": 0.20, "priceFactor": 1, "priority": 500, "name": "Streusel"},
+            {"price": 0.50, "priceFactor": 1, "priority": 500, "name": "Kinder Bueno"},
+            {"price": 0.70, "priceFactor": 1, "priority": 500, "name": "Cookies"},
+            {"price": 0.30, "priceFactor": 1, "priority": 500, "name": "Kellogs Smacks"},
+            {"price": 0.30, "priceFactor": 1, "priority": 500, "name": "Bananenchips"}
+        ],
+        "optionCategories": [
+            {"categoryId": "{DEMO_CATEGORY_100}","name": "Toppings", "priority": 900, "isCollapsible": true}
+        ]
+    }
 ]
