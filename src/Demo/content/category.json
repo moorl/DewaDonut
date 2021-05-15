@@ -1,5 +1,9 @@
 [
     {
+        "id": "{NAVIGATION_CATEGORY_ID}",
+        "cmsPageId": "{DEMO_CMS_PAGE_1}"
+    },
+    {
         "id": "{DEMO_CATEGORY_0}",
         "parentId": "{NAVIGATION_CATEGORY_ID}",
         "cmsPageId": "{CMS_PAGE_ID}",
@@ -28,5 +32,88 @@
         "active": true,
         "name": "Donut Konfigurator",
         "mediaId": "category/dewa-demo-category-config"
+    },
+
+
+
+
+
+    {
+        "id": "{DEMO_CATEGORY_15}",
+        "parentId": null,
+        "active": true,
+        "name": "Footernavigation"
+    },
+    {
+        "id": "{DEMO_CATEGORY_16}",
+        "parentId": "{DEMO_CATEGORY_15}",
+        "active": true,
+        "name": "Über Uns"
+    },
+    {
+        "id": "{DEMO_CATEGORY_17}",
+        "parentId": "{DEMO_CATEGORY_16}",
+        "active": true,
+        "name": "Das sind wir"
+    },
+    {
+        "id": "{DEMO_CATEGORY_18}",
+        "parentId": "{DEMO_CATEGORY_16}",
+        "active": true,
+        "name": "Servicebereich"
+    },
+    {
+        "id": "{DEMO_CATEGORY_19}",
+        "parentId": "{DEMO_CATEGORY_16}",
+        "active": true,
+        "name": "Kontakt"
+    },
+    {
+        "id": "{DEMO_CATEGORY_20}",
+        "parentId": "{DEMO_CATEGORY_15}",
+        "active": true,
+        "name": "Rechtliches"
+    },
+    {
+        "id": "{DEMO_CATEGORY_21}",
+        "parentId": "{DEMO_CATEGORY_20}",
+        "active": true,
+        "name": "Impressum"
+    },
+    {
+        "id": "{DEMO_CATEGORY_22}",
+        "parentId": "{DEMO_CATEGORY_20}",
+        "active": true,
+        "name": "AGB"
+    },
+    {
+        "id": "{DEMO_CATEGORY_23}",
+        "parentId": "{DEMO_CATEGORY_20}",
+        "active": true,
+        "name": "Datenschutz"
+    },
+    {
+        "id": "{DEMO_CATEGORY_24}",
+        "parentId": null,
+        "active": true,
+        "name": "Servicenavigation"
+    },
+    {
+        "id": "{DEMO_CATEGORY_25}",
+        "parentId": "{DEMO_CATEGORY_24}",
+        "active": true,
+        "name": "Unsere Events"
+    },
+    {
+        "id": "{DEMO_CATEGORY_26}",
+        "parentId": "{DEMO_CATEGORY_24}",
+        "active": true,
+        "name": "Stellenanzeigen"
+    },
+    {
+        "id": "{DEMO_CATEGORY_27}",
+        "parentId": "{DEMO_CATEGORY_24}",
+        "active": true,
+        "name": "Anfahrt"
     }
 ]

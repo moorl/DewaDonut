@@ -1,0 +1,47 @@
+[
+    {
+        "_skipEnrichData": true,
+        "id": "{THEME_ID}",
+        "configValues": {
+            "sw-color-brand-primary": {
+                "value": "#294570"
+            },
+            "sw-color-brand-secondary": {
+                "value": "#ef634e"
+            },
+            "sw-color-buy-button": {
+                "value": "#ef634e"
+            },
+            "dewa-footer-background-color": {
+                "value": "#294570"
+            },
+            "dewa-logo-max-height": {
+                "value": "70px"
+            },
+            "sw-font-family-headline": {
+                "value": "'Roboto Slab', sans-serif"
+            },
+            "sw-font-family-base": {
+                "value": "'Roboto Slab', sans-serif"
+            },
+            "sw-logo-desktop": {
+                "value": "demo-cocktail-logo.png"
+            },
+            "sw-logo-tablet": {
+                "value": "demo-cocktail-logo.png"
+            },
+            "sw-logo-mobile": {
+                "value": "demo-cocktail-logo.png"
+            },
+            "sw-logo-share": {
+                "value": "demo-cocktail-favicon.png"
+            },
+            "sw-logo-favicon": {
+                "value": "demo-cocktail-favicon.png"
+            },
+            "sw-color-price": {
+                "value": "#294570"
+            }
+        }
+    }
+]

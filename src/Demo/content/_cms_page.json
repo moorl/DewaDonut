@@ -1,0 +1,167 @@
+[
+    {
+        "id": "{DEMO_CMS_PAGE_1}",
+        "locked": true,
+        "name": "DeliveryWare - Donut Landing Page",
+        "type": "page",
+        "sections": [
+            {
+                "position": 0,
+                "type": "default",
+                "sizingMode": "full_width",
+                "blocks": [
+                    {
+                        "position": 0,
+                        "type": "image-cover",
+                        "slots": [
+                            {
+                                "type": "image",
+                                "slot": "image",
+                                "config": {
+                                    "media": {
+                                        "source": "static",
+                                        "value": "cms-page/dewa-demo-cocktails-cms-hero.jpg"
+                                    },
+                                    "verticalAlign": {
+                                        "value": "center",
+                                        "source": "static"
+                                    }
+                                }
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "position": 1,
+                "type": "default",
+                "sizingMode": "boxed",
+                "blocks": [
+                    {
+                        "position": 1,
+                        "type": "image-text",
+                        "marginBottom": "40px",
+                        "marginTop": "40px",
+                        "slots": [
+                            {
+                                "type": "image",
+                                "slot": "left",
+                                "config": {
+                                    "media": {
+                                        "source": "static",
+                                        "value": "cms-page/dewa-demo-cocktails-cms-phone.jpg"
+                                    },
+                                    "verticalAlign": {
+                                        "value": "top",
+                                        "source": "static"
+                                    }
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "slot": "right",
+                                "config": {
+                                    "content": {
+                                        "value": "<h2>Dein eigener Lieferdienst</h2>\n<p>Erstelle einen kompletten Lieferservice für Dein Lieblingsrestaurant. Sie freuen sich! Mit DeliveryWare ist es ebenfalls möglich, mehrere Shops und Standorte zu verwalten. So kannst Du beispielsweise auch eine ganze Lieferkette konfigurieren.</p><p>DeliveryWare basiert auf Shopware 6 und ist somit, wie du sicherlich weißt, grenzenlos erweiterbar.</p><p><a target=\"_self\" href=\"/Speisekarte/\" class=\"btn btn-primary\">Zur Speisekarte</a><br></p><p><br></p>",
+                                        "source": "static"
+                                    },
+                                    "verticalAlign": {
+                                        "value": "center",
+                                        "source": "static"
+                                    }
+                                }
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "position": 2,
+                "type": "default",
+                "sizingMode": "boxed",
+                "backgroundColor":"#f4f4f4",
+                "blocks": [
+                    {
+                        "position": 2,
+                        "type": "image-text",
+                        "marginBottom": "40px",
+                        "marginTop": "40px",
+                        "slots": [
+                            {
+                                "type": "text",
+                                "slot": "left",
+                                "config": {
+                                    "content": {
+                                        "value": "<h2>Bondrucker Anbindung</h2>\n<p>Du möchtest Deine Bestellungen sicherlich auch vor Ort in deinem Geschäft ausdrucken. Dafür haben wir eine Bondrucker Schnittstelle geschaffen, die deine Bestellungen nach Wunsch automatisch ausdruckt.\n</p><p><span style=\"letter-spacing: 0px;\">Aktuell funktioniert die Schnittstelle mit dem Star EMEA Bondrucker. Auf Wunsch konfigurieren wir Dir auch deinen eigenen Bondrucker.</span><br></p><p><a class=\"btn btn-primary\" rel=\"noopener\" href=\"https://star-emea.com/de/products/mc-print3/\" target=\"_blank\">Zum Bondrucker</a></p>",
+                                        "source": "static"
+                                    },
+                                    "verticalAlign": {
+                                        "value": "center",
+                                        "source": "static"
+                                    }
+                                }
+                            },
+                            {
+                                "type": "image",
+                                "slot": "right",
+                                "config": {
+                                    "media": {
+                                        "source": "static",
+                                        "value": "cms-page/dewa-demo-cocktails-cms-printer.jpg"
+                                    },
+                                    "verticalAlign": {
+                                        "value": "center",
+                                        "source": "static"
+                                    }
+                                }
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "position": 3,
+                "type": "default",
+                "sizingMode": "boxed",
+                "blocks": [
+                    {
+                        "position": 3,
+                        "type": "image-text",
+                        "marginBottom": "40px",
+                        "marginTop": "40px",
+                        "slots": [
+                            {
+                                "type": "image",
+                                "slot": "left",
+                                "config": {
+                                    "media": {
+                                        "source": "static",
+                                        "value": "cms-page/dewa-demo-cocktails-cms-gpstrack.jpg"
+                                    },
+                                    "verticalAlign": {
+                                        "value": "center",
+                                        "source": "static"
+                                    }
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "slot": "right",
+                                "config": {
+                                    "content": {
+                                        "value": "<h2>GPS-Tracking App</h2>\n<p>Eine wichtige Information für Dich und Deine Kunden ist der Standort der aktuellen Bestellung. Wir haben eine GPS-Tracking App für Deine Auslieferer erstellt, um den Live-Standort der Bestellung zu tracken.</p><p>Die App kannst Du als Shopbetreiber ganz einfach in deinem Shop-Dashboard herunterladen und für deine Auslieferer bereitstellen.</p>",
+                                        "source": "static"
+                                    },
+                                    "verticalAlign": {
+                                        "value": "center",
+                                        "source": "static"
+                                    }
+                                }
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+]
