@@ -1,9 +1,9 @@
 <?php declare(strict_types=1);
 
-namespace AppflixDewaDonut\Demo;
+namespace Appflix\DewaDonut\Demo;
 
-use AppflixDewaShop\Core\System\DataExtension;
-use AppflixDewaShop\Core\System\DataInterface;
+use Appflix\DewaShop\Core\System\DataExtension;
+use Appflix\DewaShop\Core\System\DataInterface;
 
 class Demo extends DataExtension implements DataInterface
 {
