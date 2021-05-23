@@ -62,7 +62,7 @@
                                 "slot": "right",
                                 "config": {
                                     "content": {
-                                        "value": "<h2>Dein eigener Lieferdienst</h2>\n<p>Erstelle einen kompletten Lieferservice für Dein Lieblingsrestaurant. Sie freuen sich! Mit DeliveryWare ist es ebenfalls möglich, mehrere Shops und Standorte zu verwalten. So kannst Du beispielsweise auch eine ganze Lieferkette konfigurieren.</p><p>DeliveryWare basiert auf Shopware 6 und ist somit, wie du sicherlich weißt, grenzenlos erweiterbar.</p><p><a target=\"_self\" href=\"/Speisekarte/\" class=\"btn btn-primary\">Zur Speisekarte</a><br></p><p><br></p>",
+                                        "value": "<h2>Dein eigener Lieferdienst</h2>\n<p>Erstelle einen kompletten Lieferservice für Dein Lieblingsrestaurant. Sie freuen sich! Mit DeliveryWare ist es ebenfalls möglich, mehrere Shops und Standorte zu verwalten. So kannst Du beispielsweise auch eine ganze Lieferkette konfigurieren.</p><p>DeliveryWare basiert auf Shopware 6 und ist somit, wie du sicherlich weißt, grenzenlos erweiterbar.</p><p><a target=\"_self\" href=\"#\" class=\"btn btn-primary\">Zur Speisekarte</a><br></p><p><br></p>",
                                         "source": "static"
                                     },
                                     "verticalAlign": {
