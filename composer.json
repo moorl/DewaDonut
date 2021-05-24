@@ -1,6 +1,6 @@
 {
     "name": "appflix/dewa-donut",
-    "description": "DeliveryWare | Demo Content",
+    "description": "DeliveryWare | Demo Donut",
     "keywords": ["restaurant", "delivery", "theme"],
     "version": "0.0.1",
     "type": "shopware-platform-plugin",
@@ -22,12 +22,12 @@
     "extra": {
         "shopware-plugin-class": "Appflix\\DewaDonut\\DewaDonut",
         "label": {
-            "en-GB": "DeliveryWare | Donut",
-            "de-DE": "DeliveryWare | Donut"
+            "en-GB": "DeliveryWare | Demo Donut",
+            "de-DE": "DeliveryWare | Demo Donut"
         },
         "description": {
-            "en-GB": "DeliveryWare | Donut",
-            "de-DE": "DeliveryWare | Donut"
+            "en-GB": "DeliveryWare | Demo Donut",
+            "de-DE": "DeliveryWare | Demo Donut"
         },
         "manufacturerLink": {
             "en-GB": "https://www.deliveryware.de",

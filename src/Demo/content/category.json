@@ -7,9 +7,9 @@
         "id": "{DEMO_CATEGORY_0}",
         "parentId": "{NAVIGATION_CATEGORY_ID}",
         "cmsPageId": "{CMS_PAGE_ID}",
-        "mediaId": "pexels-photo-1565982",
         "active": true,
-        "name": "Speisekarte"
+        "name": "Speisekarte",
+        "mediaId": "category/dewa-demo-category-speisekarte"
     },
     {
         "id": "{DEMO_CATEGORY_1}",

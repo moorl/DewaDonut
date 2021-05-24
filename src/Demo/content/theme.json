@@ -4,43 +4,43 @@
         "id": "{THEME_ID}",
         "configValues": {
             "sw-color-brand-primary": {
-                "value": "#294570"
+                "value": "#f36292"
             },
             "sw-color-brand-secondary": {
-                "value": "#ef634e"
+                "value": "#5CD3EE"
             },
             "sw-color-buy-button": {
-                "value": "#ef634e"
+                "value": "#5CD3EE"
             },
             "dewa-footer-background-color": {
-                "value": "#294570"
+                "value": "#f36292"
             },
             "dewa-logo-max-height": {
                 "value": "70px"
             },
             "sw-font-family-headline": {
-                "value": "'Roboto Slab', sans-serif"
+                "value": "'Comic Neue', sans-serif"
             },
             "sw-font-family-base": {
-                "value": "'Roboto Slab', sans-serif"
+                "value": "'Comic Neue', sans-serif"
             },
             "sw-logo-desktop": {
-                "value": "demo-cocktail-logo.png"
+                "value": "demo-donut-logo.png"
             },
             "sw-logo-tablet": {
-                "value": "demo-cocktail-logo.png"
+                "value": "demo-donut-logo.png"
             },
             "sw-logo-mobile": {
-                "value": "demo-cocktail-logo.png"
+                "value": "demo-donut-logo.png"
             },
             "sw-logo-share": {
-                "value": "demo-cocktail-favicon.png"
+                "value": "demo-donut-favicon.png"
             },
             "sw-logo-favicon": {
-                "value": "demo-cocktail-favicon.png"
+                "value": "demo-donut-favicon.png"
             },
             "sw-color-price": {
-                "value": "#294570"
+                "value": "#f36292"
             }
         }
     }

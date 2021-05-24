@@ -8,7 +8,10 @@
         "taxId": "{TAX_ID_REDUCED}",
         "price": 1.60,
         "visibilities": [{"salesChannelId": "{SALES_CHANNEL_ID}", "visibility": 30}],
-        "categories": [{"id": "{DEMO_CATEGORY_1}"}]
+        "categories": [{"id": "{DEMO_CATEGORY_1}"}],
+        "cover": {
+            "mediaId": "product/dewa-demo-donut-single"
+        }
     },
     {
         "active": true,
@@ -19,7 +22,10 @@
         "taxId": "{TAX_ID_REDUCED}",
         "price": 2.10,
         "visibilities": [{"salesChannelId": "{SALES_CHANNEL_ID}", "visibility": 30}],
-        "categories": [{"id": "{DEMO_CATEGORY_1}"}]
+        "categories": [{"id": "{DEMO_CATEGORY_1}"}],
+        "cover": {
+            "mediaId": "product/dewa-demo-donut-single"
+        }
     },
     {
         "active": true,
@@ -30,7 +36,10 @@
         "taxId": "{TAX_ID_REDUCED}",
         "price": 1.80,
         "visibilities": [{"salesChannelId": "{SALES_CHANNEL_ID}", "visibility": 30}],
-        "categories": [{"id": "{DEMO_CATEGORY_1}"}]
+        "categories": [{"id": "{DEMO_CATEGORY_1}"}],
+        "cover": {
+            "mediaId": "product/dewa-demo-donut-single"
+        }
     },
     {
         "active": true,
@@ -41,7 +50,10 @@
         "taxId": "{TAX_ID_REDUCED}",
         "price": 2.80,
         "visibilities": [{"salesChannelId": "{SALES_CHANNEL_ID}", "visibility": 30}],
-        "categories": [{"id": "{DEMO_CATEGORY_1}"}]
+        "categories": [{"id": "{DEMO_CATEGORY_1}"}],
+        "cover": {
+            "mediaId": "product/dewa-demo-donut-single"
+        }
     },
     {
         "active": true,
@@ -52,7 +64,10 @@
         "taxId": "{TAX_ID_REDUCED}",
         "price": 2.80,
         "visibilities": [{"salesChannelId": "{SALES_CHANNEL_ID}", "visibility": 30}],
-        "categories": [{"id": "{DEMO_CATEGORY_1}"}]
+        "categories": [{"id": "{DEMO_CATEGORY_1}"}],
+        "cover": {
+            "mediaId": "product/dewa-demo-donut-single"
+        }
     },
     {
         "active": true,

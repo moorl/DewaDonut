@@ -24,7 +24,7 @@ class Demo extends DataExtension implements DataInterface
     public function getStylesheets(): array
     {
         return [
-            'fonts/roboto-slab-latin.css'
+            'fonts/comic-neue.css'
         ];
     }
 
