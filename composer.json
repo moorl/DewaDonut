@@ -12,6 +12,7 @@
         }
     ],
     "require": {
+        "shopware/core": "6.4.*",
         "appflix/dewa-shop": "*"
     },
     "autoload": {
@@ -20,7 +21,7 @@
         }
     },
     "extra": {
-        "shopware-plugin-class": "Appflix\\DewaDonut\\DewaDonut",
+        "shopware-plugin-class": "Appflix\\DewaDonut\\AppflixDewaDonut",
         "label": {
             "en-GB": "DeliveryWare | Demo Donut",
             "de-DE": "DeliveryWare | Demo Donut"

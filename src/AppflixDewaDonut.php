@@ -4,6 +4,6 @@ namespace Appflix\DewaDonut;
 
 use Shopware\Core\Framework\Plugin;
 
-class DewaDonut extends Plugin
+class AppflixDewaDonut extends Plugin
 {
 }
