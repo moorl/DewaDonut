@@ -2,10 +2,10 @@
 
 namespace Appflix\DewaDonut\Demo;
 
-use Appflix\DewaShop\Core\System\DataExtension;
-use Appflix\DewaShop\Core\System\DataInterface;
+use Appflix\DewaShop\Core\System\DewaShopDataExtension;
+use MoorlFoundation\Core\System\DataInterface;
 
-class Demo extends DataExtension implements DataInterface
+class Demo extends DewaShopDataExtension implements DataInterface
 {
     public function getName(): string
     {

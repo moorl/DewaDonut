@@ -2,7 +2,7 @@
     "name": "appflix/dewa-donut",
     "description": "DeliveryWare | Demo Donut",
     "keywords": ["restaurant", "delivery", "theme"],
-    "version": "0.0.1",
+    "version": "1.4.0",
     "type": "shopware-platform-plugin",
     "license": "proprietary",
     "authors": [

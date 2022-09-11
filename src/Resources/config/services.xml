@@ -5,7 +5,7 @@
            xsi:schemaLocation="http://symfony.com/schema/dic/services http://symfony.com/schema/dic/services/services-1.0.xsd">
     <services>
         <service id="Appflix\DewaDonut\Demo\Demo">
-            <tag name="dewa.data" priority="0" />
+            <tag name="moorl.foundation.data" priority="0" />
         </service>
     </services>
 </container>
